@@ -1,0 +1,5 @@
+title: Sabir Jan - AI Engineer & Creative Technologist
+description: Portfolio showcasing AI/IoT projects, research, and creative achievements
+theme: minima  # Free, clean theme (GitHub auto-installs)
+plugins:
+  - jekyll-feed
