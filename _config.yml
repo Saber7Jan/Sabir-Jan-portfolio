@@ -1,5 +1,13 @@
-title: Sabir Jan - AI Engineer & Creative Technologist
-description: Portfolio showcasing AI/IoT projects, research, and creative achievements
-theme: minima  # Free, clean theme (GitHub auto-installs)
+title: Sabir Jan - AI/ML & Interactive Arts Portfolio
+description: Showcasing AI projects, research, and creative achievements in technology and arts.
+theme: minima  # Basic, but we'll customize
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag  # For better SEO
+header_pages:
+  - about.md  # New: Add bio
+  - projects.md
+  - education.md
+  - awards.md
+  - cv.md
+  - contact.md
