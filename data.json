@@ -3,73 +3,144 @@
     {
       "degree": "BS Computer Engineering",
       "institution": "COMSATS University Islamabad",
-      "years": "2020-2026",
-      "cgpa": "2.7",
-      "details": "Key courses: AI, Neural Networks, IoT. FYP: Wi-Fi CSI Emotion Recognition.",
-      "certificate": "assets/bs-transcript.jpg"  // Upload your progressive result card image
+      "years": "2020-2026 (Expected completion January 2026 per Hope Certificate)",
+      "cgpa": "Cumulative CGPA: 2.28 (as of Spring 2022; improved in AI/ML courses like Neural Networks (C-), Artificial Intelligence (C))",
+      "details": "Key courses: Artificial Intelligence (C, 61 marks), Neural Networks (C-, 56 marks), Signals and Systems (D after repeat), Database Systems (D/F, improved attempts), Operating Systems (C+). Remarks: Good Standing/Probation in some semesters, Semester Freeze Fall 2022. Medium of instruction: English (certified).",
+      "certificate": "/assets/Sabir_BS_CE_Result_Card.pdf",
+      "hope_cert": "/assets/Hope_Certificate.pdf",
+      "english_cert": "/assets/English_language_Certificate.pdf"
     },
     {
       "degree": "HSSC Pre-Engineering",
       "institution": "Aga Khan Higher Secondary School, Gilgit",
       "years": "2018-2020",
-      "grade": "A-1 (83.7%)",
-      "details": "Subjects: Math (93%), Physics, Chemistry."
+      "grade": "A-1 (83.7%, 921/1100 marks)",
+      "details": "Subjects: English (68), Urdu (69), Islamiyat (R), Pakistan Studies (R), Mathematics (93), Physics (94 total with practical), Chemistry (88 total). English proficiency certified by school.",
+      "certificate": "/assets/HSSC CERTIFICATE.pdf",
+      "transcript": "/assets/HSSC_Transcript.pdf",
+      "character": "/assets/Character_Certificate.pdf",
+      "college_eng_prof": "/assets/COLLEGE_ENG_PROF.pdf"
     },
     {
       "degree": "SSC Science",
       "institution": "Aga Khan Higher Secondary School, Gilgit",
       "years": "2015-2017",
-      "grade": "A (75%)"
+      "grade": "A (75%, 825/1100 marks)",
+      "details": "Subjects: English, Urdu, Islamiyat, Pakistan Studies, Mathematics, Physics, Chemistry, Biology.",
+      "certificate": "/assets/SSC_Certificate.pdf",
+      "transcript": "/assets/SSC_Transcript.pdf"
     }
   ],
   "projects": [
     {
-      "title": "FYP: Enhancing Human Activity Recognition Through IoT Sensor Data Analytics",
-      "description": "Deep learning on Wi-Fi CSI for emotion recognition (ResNet-18, EfficientNetV2B0). Android app in Java.",
-      "tech": ["Python", "PyTorch", "ESP32", "Java"],
-      "link": "https://github.com/Saber7Jan/EmotiFi",  // Add actual link
-      "image": "assets/App_Demo.png"  // Upload a demo image
+      "title": "FYP: Enhancing Human Activity Recognition Through IoT Sensor Data Analytics: A Deep Learning Approach",
+      "description": "Final Year Project (July 2025) on Facial Expression Recognition (FER) using Wi-Fi CSI. Deployed dual-ESP32 for data collection, processed signals into spectrograms, trained ResNet-18 and EfficientNetV2B0 models for emotions (Neutral, Happy, Sad, Fear, Surprise). Applications: Healthcare, security, privacy-preserving HCI. Achieved high accuracy for contactless sensing.",
+      "tech": ["ESP32", "Python", "PyTorch", "ResNet-18", "EfficientNetV2B0", "Java (Android app)", "CSI Processing", "Spectrograms"],
+      "link": "https://github.com/your-repo/fyp",  // Update with actual if available
+      "thesis": "/assets/FYP_Thesis_SP25-37.pdf",
+      "research_paper": "/assets/FYP_Research Paper SP25-37.pdf",
+      "external_final": "/assets/FYP_EXTERNAL_2_FINAL.pdf",
+      "career_expo": "/assets/FYP_Career_Expo.pdf"
     },
     {
       "title": "Aurora: RAG-based Mental Health Chatbot",
-      "description": "Knowledge-enhanced AI using ChromaDB, Sentence Transformers, Gemini API, Streamlit. Focus: Crisis-safe responses.",
-      "tech": ["Python", "LangChain", "RAG"]
+      "description": "AI assistant for mental health awareness with crisis-safe responses, context retrieval from PDFs.",
+      "tech": ["Python", "ChromaDB", "Sentence Transformers", "Gemini API", "Streamlit", "LangChain", "LangGraph"]
     },
     {
-      "title": "DanReality: Dance-Therapy App Pitch",
-      "description": "Fusion of dance and AI for mental health ('Thinking with the Dancing Brain'). 19-page pitch deck.",
-      "tech": ["Conceptual Design", "AI Integration"]
+      "title": "DanReality: Dance-Therapy Innovation Pitch",
+      "description": "App fusing dance and AI for mental health ('Thinking with the Dancing Brain'). Addresses youth issues like depression, obesity via choreography and tech. Vision: Positive change through spatial programming (ideas into rhythm/flow/interaction).",
+      "tech": ["Conceptual AI Design", "Pitch Deck"],
+      "pitch_deck": "/assets/DanReality_PitchDeck.pdf",
+      "report": "/assets/DanReality.pdf",
+      "demo_images": "/assets/Demo_Images.pdf",
+      "app_demo": "/assets/App_Demo.pdf"
     },
     {
       "title": "Line Following Robot (LFR)",
-      "description": "Robotics project with sensor data analytics.",
-      "tech": ["C++", "Arduino/ESP32"]
+      "description": "Robotics project with sensor analytics (Spring 2025).",
+      "tech": ["C++", "Hardware Integration"],
+      "report": "/assets/Project Report LFR.pdf"
+    }
+  ],
+  "internships": [
+    {
+      "title": "AI Development Intern, Kartoa Technologies",
+      "duration": "August 1, 2025 - November 30, 2025",
+      "details": "Hands-on in Python, ML, GenAI, RAG, LangChain/LangGraph. Contributed to AI solutions, models, workflows, debugging, and optimization. Demonstrated analytical thinking and problem-solving.",
+      "certificate": "/assets/Internship_Adan_AI.pdf"
     }
   ],
   "awards": [
     {
       "title": "Ehsaas Undergraduate Scholarship",
-      "year": "2020-ongoing",
+      "year": "Fall 2020 onward",
       "category": "Academic",
-      "image": "assets/ehsaas-award.jpg"
+      "description": "Full tuition + Rs.40,000 annual stipend for BS Computer Engineering. Based on merit and need; requires 75-80% attendance and good performance.",
+      "certificate": "/assets/Ehsaas scholarship award.pdf"
     },
     {
       "title": "3rd Prize K-pop Cover Dance",
       "year": "2024",
       "category": "Arts",
-      "description": "Embassy of Korea Regional Tournament."
+      "description": "Regional Qualifying Tournament, Embassy of Korea.",
+      "certificate": "/assets/KPOP_Certificate.pdf"
     },
-    // Add more from your list: Taekwondo, Football, Volunteer certs, etc.
+    {
+      "title": "Best Performer, CSC FIESTA 2022",
+      "year": "2022",
+      "category": "Extracurricular",
+      "certificate": "/assets/CSC_Best_Performer_Fiesta.pdf"
+    },
     {
       "title": "Best Member, CSC Dramatics Club",
       "year": "FA22-FA25",
-      "category": "Extracurricular"
+      "category": "Extracurricular",
+      "certificate": "/assets/CSC_Dramatics_Best_Member.pdf"
+    },
+    {
+      "title": "Outstanding Performance in Football, DJCL Tournament",
+      "year": "2018",
+      "category": "Sports",
+      "certificate": "/assets/Football_Certificate_2018.pdf"
+    },
+    // Add more similarly: Taekwondo (/assets/Taekwondo_Certificate.pdf), Runner Up Football (/assets/Runner_Up_football_2014.pdf), etc.
+    // From screenshots: Include all like Rays_of_Light_2019.pdf, Religious_Education_2017.pdf, etc.
+    {
+      "title": "Volunteer, Second International Symposium on One Health",
+      "year": "October 7, 2025",
+      "category": "Community",
+      "description": "Jointly by COMSATS and ANSES France.",
+      "certificate": "/assets/French_Embassy_OneHealth.pdf"  // Or US_Embassy_OneHealth_Health.pdf if separate
+    },
+    {
+      "title": "Mentor, Gojal Youth Camp VII",
+      "year": "August 2024",
+      "category": "Community",
+      "description": "'Fusion Fest: Tech, Talent, Traditions'.",
+      "certificate": "/assets/GYC_Camp_Mentor.pdf"
+    },
+    // Continue for all 20+ awards/certificates, categorizing as Academic, Arts, Sports, Community.
+    {
+      "title": "IEEE Robian Participant (LFR)",
+      "year": "2025",
+      "category": "Technical",
+      "certificate": "/assets/IEEE_Robian.pdf"
     }
   ],
   "skills": {
     "ai_ml": 85,
-    "programming": 90,
-    "creative_arts": 80,
-    "iot": 75
+    "programming_python_java_cpp": 90,
+    "iot_esp32": 80,
+    "creative_arts_dance_choreography": 85,
+    "data_analytics": 75
+  },
+  "personal": {
+    "cnic": "/assets/CNIC_Front.pdf",
+    "cnic_back": "/assets/CNIC_Back.pdf",
+    "passport": "/assets/My_Passport.pdf",
+    "domicile": "/assets/My_Domicile.pdf",
+    "cv": "/assets/SABIR_CV.pdf",
+    "profile_picture": "/assets/Profile_Picture.jpg"
   }
 }
