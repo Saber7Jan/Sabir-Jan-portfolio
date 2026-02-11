@@ -1,0 +1,75 @@
+{
+  "education": [
+    {
+      "degree": "BS Computer Engineering",
+      "institution": "COMSATS University Islamabad",
+      "years": "2020-2026",
+      "cgpa": "2.7",
+      "details": "Key courses: AI, Neural Networks, IoT. FYP: Wi-Fi CSI Emotion Recognition.",
+      "certificate": "assets/bs-transcript.jpg"  // Upload your progressive result card image
+    },
+    {
+      "degree": "HSSC Pre-Engineering",
+      "institution": "Aga Khan Higher Secondary School, Gilgit",
+      "years": "2018-2020",
+      "grade": "A-1 (83.7%)",
+      "details": "Subjects: Math (93%), Physics, Chemistry."
+    },
+    {
+      "degree": "SSC Science",
+      "institution": "Aga Khan Higher Secondary School, Gilgit",
+      "years": "2015-2017",
+      "grade": "A (75%)"
+    }
+  ],
+  "projects": [
+    {
+      "title": "FYP: Enhancing Human Activity Recognition Through IoT Sensor Data Analytics",
+      "description": "Deep learning on Wi-Fi CSI for emotion recognition (ResNet-18, EfficientNetV2B0). Android app in Java.",
+      "tech": ["Python", "PyTorch", "ESP32", "Java"],
+      "link": "https://github.com/Saber7Jan/EmotiFi",  // Add actual link
+      "image": "assets/App_Demo.png"  // Upload a demo image
+    },
+    {
+      "title": "Aurora: RAG-based Mental Health Chatbot",
+      "description": "Knowledge-enhanced AI using ChromaDB, Sentence Transformers, Gemini API, Streamlit. Focus: Crisis-safe responses.",
+      "tech": ["Python", "LangChain", "RAG"]
+    },
+    {
+      "title": "DanReality: Dance-Therapy App Pitch",
+      "description": "Fusion of dance and AI for mental health ('Thinking with the Dancing Brain'). 19-page pitch deck.",
+      "tech": ["Conceptual Design", "AI Integration"]
+    },
+    {
+      "title": "Line Following Robot (LFR)",
+      "description": "Robotics project with sensor data analytics.",
+      "tech": ["C++", "Arduino/ESP32"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Ehsaas Undergraduate Scholarship",
+      "year": "2020-ongoing",
+      "category": "Academic",
+      "image": "assets/ehsaas-award.jpg"
+    },
+    {
+      "title": "3rd Prize K-pop Cover Dance",
+      "year": "2024",
+      "category": "Arts",
+      "description": "Embassy of Korea Regional Tournament."
+    },
+    // Add more from your list: Taekwondo, Football, Volunteer certs, etc.
+    {
+      "title": "Best Member, CSC Dramatics Club",
+      "year": "FA22-FA25",
+      "category": "Extracurricular"
+    }
+  ],
+  "skills": {
+    "ai_ml": 85,
+    "programming": 90,
+    "creative_arts": 80,
+    "iot": 75
+  }
+}
