@@ -5,20 +5,9 @@ title: Projects
 
 # Projects
 
-Highlighting AI/ML, IoT, and creative tech fusions from my BS at COMSATS.
+Showcasing AI/ML and interactive tech from my BS at COMSATS, with creative fusions like dance-therapy for mental health.
 
-{% for project in site.data.projects %}  // Jekyll can loop if you add to _config, but for now, hardcode or use JS later
-## {{ project.title }}
+<div id="projects-list"></div>  <!-- JS will populate dynamically for filtering -->
 
-{{ project.description }}
-
-Tech: {{ project.tech | join: ", " }}
-
-[Demo/Link]({{ project.link }})
-
-![Project Image]({{ project.image }})
-{% endfor %}
-
-<!-- Add dynamic JS section below -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="projectChart"></canvas>
+<!-- Add chart for tech stack visualization -->
+<canvas id="projectChart" width="400" height="200"></canvas>
