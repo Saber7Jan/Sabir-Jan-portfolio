@@ -36,7 +36,7 @@
       "title": "FYP: Enhancing Human Activity Recognition Through IoT Sensor Data Analytics: A Deep Learning Approach",
       "description": "Final Year Project (July 2025) on Facial Expression Recognition (FER) using Wi-Fi CSI. Deployed dual-ESP32 for data collection, processed signals into spectrograms, trained ResNet-18 and EfficientNetV2B0 models for emotions (Neutral, Happy, Sad, Fear, Surprise). Applications: Healthcare, security, privacy-preserving HCI. Achieved high accuracy for contactless sensing.",
       "tech": ["ESP32", "Python", "PyTorch", "ResNet-18", "EfficientNetV2B0", "Java (Android app)", "CSI Processing", "Spectrograms"],
-      "link": "https://github.com/your-repo/fyp",  // Update with actual if available
+      "link": "https://github.com/Saber7Jan/EmotiFi", 
       "thesis": "/assets/FYP_Thesis_SP25-37.pdf",
       "research_paper": "/assets/FYP_Research Paper SP25-37.pdf",
       "external_final": "/assets/FYP_EXTERNAL_2_FINAL.pdf",
