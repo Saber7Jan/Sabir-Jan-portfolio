@@ -18,4 +18,6 @@ header_pages:
   - cv.md
   - contact.md
 
+baseurl: ""                     # Important - empty for root domain
+url: "https://saber7jan.github.io/Sabir-Jan-portfolio"   # Optional but good for absolute links
 permalink: /:title/
