@@ -1,17 +1,21 @@
 title: Sabir Jan - AI/ML & Interactive Arts Portfolio
 email: saber8ronaldo@gmail.com
 github_username: Saber7Jan
+
 description: Showcasing AI projects, research, and creative achievements in technology and arts.
-theme: minima  # Basic, but we'll customize
+
+theme: minima
+
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag  # For better SEO
+  - jekyll-seo-tag
+
 header_pages:
-  - about.md  # New: Add bio
+  - about.md
   - projects.md
   - education.md
   - awards.md
   - cv.md
   - contact.md
-# Add this to your existing _config.yml
-permalink: /:title/           # Clean URLs like /projects/ instead of /projects.html
+
+permalink: /:title/
