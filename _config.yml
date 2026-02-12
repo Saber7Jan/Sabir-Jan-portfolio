@@ -13,3 +13,5 @@ header_pages:
   - awards.md
   - cv.md
   - contact.md
+# Add this to your existing _config.yml
+permalink: /:title/           # Clean URLs like /projects/ instead of /projects.html
