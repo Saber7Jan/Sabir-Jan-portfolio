@@ -11,9 +11,11 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           {% for page in site.header_pages %}
-            <li class="nav-item"><a class="nav-link" href="{{ page | prepend: site.baseurl }}">{{ page | replace: '.md', '' | capitalize }}</a></li>
-          {% endfor %}
-        </ul>
+  {% assign slug = page | replace: '.md', '' %}
+  <li class="nav-item">
+    <a class="nav-link" href="/{{ slug }}/">{{ slug | capitalize }}</a>
+  </li>
+{% endfor %}
       </div>
     </div>
   </nav>
