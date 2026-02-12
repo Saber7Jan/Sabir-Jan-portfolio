@@ -7,4 +7,4 @@ title: Home
 
 Creative Technologist shaping human-centered AI — blending intelligent systems, embodied interaction, and cultural innovation.
 
-[About Me](/about) • [Projects](/projects) • [Education](/education)
+[About](/about/) • [Projects](/projects/) • [Education](/education/) • [Awards](/awards/) • [CV](/cv/) • [Contact](/contact/)
